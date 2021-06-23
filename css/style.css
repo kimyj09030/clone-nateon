@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "./reset.css";
+
+/* ----------------------- header ------------------------ */
+.miong {
+    float: left;
+}
+.more_svc {
+    float: right;
+    display: inline-block;
+}
+.main_list_item {
+    display: inline-block;
+}
+
+/* ----------------------- header ------------------------ */
+
+
+/* ----------------------- header ------------------------ */
+
+
+/* ----------------------- header ------------------------ */
