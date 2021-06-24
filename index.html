@@ -4,39 +4,283 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- css -->
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- js -->
+<script src="./js/script.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <title></title>
 </head>
 <body>
     <div class="wrap">
         <header id="header">
             <div class="svcwrap">
-                <a href="#" class="miong">네이트 메인가기</a>
+                <div class="go-main">
+                    <a href="#">네이트 메인가기</a>
+                </div>
                 <ul class="more_svc">
-                    <li class="main_list_itme"><a href="#">로그인</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">메일</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">뉴스</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">판</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">TV</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">톡톡</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">툰앤북</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">게임</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">쇼핑</a></li>
-                    <li class="main_list_itme
-                    "><a href="#">더보기</a></li>
-
+                    <li class="main_list_item"><a href="#">로그인</a></li>
+                    <li class="main_list_item"><a href="#">메일</a></li>
+                    <li class="main_list_item"><a href="#">뉴스</a></li>
+                    <li class="main_list_item"><a href="#">판</a></li>
+                    <li class="main_list_item"><a href="#">TV</a></li>
+                    <li class="main_list_item"><a href="#">톡톡</a></li>
+                    <li class="main_list_item"><a href="#">툰앤북</a></li>
+                    <li class="main_list_item"><a href="#">게임</a></li>
+                    <li class="main_list_item"><a href="#">쇼핑</a></li>
+                    <li class="main_list_item"><a href="#">더보기 +</a></li>
                 </ul>
-
+            </div>
+            <div class="gnbwrap">
+                <ul class="menu-list">
+                    <li><a href="#" class="menu-list-item">
+                        <img src="./img/img_nateonlogo.png" alt="">
+                    </a></li>
+                    <li class="menu-list-item"><a href="#">네이트온</a></li>
+                    <li class="menu-list-item"><a href="#">팀룸</a></li>
+                    <li class="menu-list-item"><a href="#">기프티콘</a></li>
+                    <li class="menu-list-item"><a href="#">내PC제어</a></li>
+                    <li class="menu-list-item"><a href="#">부가서비스</a></li>
+                </ul>
+                <ul class="outlink">
+                    <li class="outlink_item"><a href="#">공지사항</a></li>
+                    <li class="outlink_item"><a href="#">고객센터</a></li>
+                </ul>
+            </div>
         </header>
 
+        <div class="main-container">
+            <section class="section page1">
+                <div class="contents">
+                    <div class="txtbox">
+                        <h3 class="tit">함께하는 일이 쉬워진다<br>
+                            네이트온
+                        </h3>
+                        <div class="subtit">
+                            편리함은 기본, 새로운 모습으로 변신한
+                            <br>
+                            네이트온과 만나보세요.
+                        </div>
+                        <div class="downlink">
+                            <a href="#">
+                                <img src="./img/btn-windows.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/btn-mac.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/btn-google.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/btn-appstore.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <div class="imgcnt">
+                            <div>
+                                <img src="./img/keyvisual-mobile.png" width="832" height="738" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/keyvisual-pc.png" width="742" height="826" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section page2">
+                <div class="contents">
+                    <div class="bx-slider">
+                        <div class="bx-slider-item">
+                            <div class="bx-imgbox">
+                                <img src="./img/img-message.png" width="451" height="731" alt="">
+                            </div>
+                            <divn class="bx-txtbox">
+                                <div class="bx-subtit">
+                                    빠르게 꺼내 쓰는 업무용 메신저
+                                </div>
+                                <h3 class="bx-tit">
+                                    필요한 것만 한눈에
+                                    <br>
+                                    쏙 -  심플 대화방
+                                </h3>
+                                <div class="bx-disc">
+                                    메신저의 핵심인 실시간 대화, 대용량 파일 전송,
+                                    <br>
+                                    보안이 필요할 때 필요한 한번 메시지와
+                                    <br>
+                                    검색 기능이 간결하게 정돈된 심플 대화방
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="bx-slider-item">
+                            <div class="bx-imgbox">
+                                <img src="./img/img-message.png" width="451" height="731" alt="">
+                            </div>
+                            <divn class="bx-txtbox">
+                                <div class="bx-subtit">
+                                    빠르게 꺼내 쓰는 업무용 메신저
+                                </div>
+                                <h3 class="bx-tit">
+                                    필요한 것만 한눈에
+                                    <br>
+                                    쏙 -  심플 대화방
+                                </h3>
+                                <div class="bx-disc">
+                                    메신저의 핵심인 실시간 대화, 대용량 파일 전송,
+                                    <br>
+                                    보안이 필요할 때 필요한 한번 메시지와
+                                    <br>
+                                    검색 기능이 간결하게 정돈된 심플 대화방
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bx-slider-item">
+    
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="section page3">
+                <div class="contents">
+                    <div class="pcsvc-txtbox">
+                        <h3>
+                            업무에 필요한 이메일, 문자,
+                            <br>
+                            내 PC제어 서비스
+                        </h3>
+                        <div class="pcsvc-subtit">
+                            네이트온에서는 메신저 기능은 기본, 업무에 필요한 메일과 문제 메시지 발송,
+                            <br>
+                            내 PC 제어 기능을 이용할 수 있습니다.
+                            <br>
+                            네이트온 친구라면 쉽게 메일과 문자 메세지를 보낼 수 있고
+                            <br>
+                            스마트 폰에서 PC 화면을 제어할 수 있는 내 PC 제어 기능은 시공간의 제약없이
+                            <br>
+                            원하는 작업을 할 수 있게 도와줘요.
+                        </div>
+                    </div>
+                    <div class="pcsvc-imgbox">
+                        <img src="./img/img-bng.png" width="254" height="800" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section page4">
+                <div class="contents">
+                    <div class="prj-txtbox">
+                        <h3>
+                            프로젝트, 조별 과제에 최적화 된
+                            <br>
+                            팀플 공간, 팀룸
+                        </h3>
+                    </div>
+                    <ul class="prjwrap">
+                        <li>
+                            <img src="./img/img-group.png" alt="">
+                            <div class="prjtit">
+                                멤버별, 주제별로 관리하는
+                                <br>
+                                소그룹 : 모임
+                            </div>
+                            <div class="prjsubtit">
+                                팀룸 안에서 업무별, 과제별로 모임을 만들고
+                                <br>
+                                허용된 멤버끼리 협업 활동을 할 수 있어요.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/img-file.png" alt="">
+                            <div class="prjtit">
+                                기간 제한 없이 파일 공유하기
+                            </div>
+                            <div class="prjsubtit">
+                                멤버들의 피땀으로 만들어진 산출물들과
+                                <br>
+                                자료들을 공유해보세요. 팀룸당 3GB까지
+                                <br>
+                                보관할 수 있고 기간 제한없이
+                                <br>
+                                다운로드 할 수 있어요.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/img-history.png" alt="">
+                            <div class="prjtit">
+                                업무 히스토리를 한 눈에
+                            </div>
+                            <div class="prjsubtit">
+                                팀룸에서는 모든 대화가 히스토리가 됩니다
+                                <br>
+                                모임에 참여하여 대화 내용을 통해
+                                <br>
+                                업무 내용을 언제라도 확인할 수 있어요
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section page5">
+                <div class="contents">
+                </div>
+            </section>
+            <section class="section page6">
+                <div class="contents">
+                    <div class="with-txtbox">
+                        <h3>
+                            내가 있는 어떤 곳이라도, 네이트온과 함께
+                        </h3>
+                        <div class="with-subtit">
+                            외근 갈 때, 재택 할 때... 회사에서 보던 문서 어떻게 확인하지?
+                            <br>
+                            네이트온은 다양한 디바이스 동기화를 지원하여 이동 중에도 팀원들과 계속해서 대화를 이어갈 수 있고
+                            <br>
+                            최근에 주고 받은 파일도 언제든 확인할 수 있어요.
+                        </div>
+                    </div>
+                    <ul class="downloadlist">
+                        <li>
+                            <div class="downtit">PC 다운로드</div>
+                            <a href="#">Windows</a>
+                            <a href="#">Mac OS</a>
+                            
+                        </li>
+                        <li>
+                            <div class="downtit">APP 다운로드</div>
+                            <a href="#">Android</a>
+                            <a href="#">iOS</a>
+                            
+                        </li>
+                        <li>
+                            <div class="downtit">웹 메신저</div>
+                            <a href="#" class="go">바로 실행하기</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="ftlink">
+                    <a href="#">서비스약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">청소년보호정책</a>
+                    <a href="#">광고문의</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <div class="copyright">Copyright © SK Communications All right reserved</div>
+            </div>
+        </footer>
 
 
     </div>
